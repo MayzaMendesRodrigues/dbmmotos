@@ -20,46 +20,82 @@ body{
     top: 0;
     left: 0;
 }
+
 .nav{
     display:flex;
     justify-content: space-between;
     max-width:992px;
     margin: 0 auto;
 }
+
 .nav-link {
     color:white;
     text-decoration: none;
 }
+
 .nav-link-compra {
     color:#ed1c22;
     text-decoration: none;
 }
+
 .logo{
+    margin-top: 15px;
     height: 50px;
     padding: 0px 40px;
     line-height: 100px;
 }
+
 .nav-menu{
     display: flex;
     margin-right: 40px;
     list-style: none;
 }
+
 .nav-menu-item {
-    font-size: 18px;
+    font-size: 25px;
     margin: 0 10px;
     line-height: 80px;
     width: max-content;
 
 }
+
 .nav-menu-link {
-    padding:8px 12px  ;
-    border-radius: 3px ;
-}
-.nav-menu-link:hover{
-    background-color:#525150;
-    transition: 0.5s;
+    padding:8px 12px;
+    border-radius: 3px;
 }
 
+.line {
+    text-decoration: none;
+    position: relative;
+
+}
+
+.line:after {
+    content: '';
+    position: absolute;
+}
+
+.line:before {
+    content: '';
+    position: absolute;
+}
+
+.underline:after {
+    transform-origin: right;
+    transform: scaleX(0);
+    bottom: 8px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #ed1c22;
+    transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+}
 
 .button {
     color: white;
