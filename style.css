@@ -7,7 +7,9 @@
     font-family: "Bebas", "K2D" sans-serif;
 }
 body {
-    background-color: black;
+    background-image: url("./servicios (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
