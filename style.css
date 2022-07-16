@@ -22,3 +22,129 @@ body {
 .fontred {
     color:#e91c22;
 }
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    max-width: 992px;
+    width: 100%;
+    min-width: 320px;
+}
+
+.partdos {
+    margin: 350px 5% 150px 5%;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    display: row;
+
+}
+
+.paragraph2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 380px;
+    position: relative;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+
+}
+
+.paragraph2 .title{
+    display: flex;
+    
+}
+
+.paragraph2 .fontred {
+    display: flex;
+    float: right;
+    padding-left: 5px;
+}
+
+
+
+.maps{
+    padding-bottom:5%;
+   
+    position:relative;
+    width: 40%;
+    
+}
+
+.maps iframe { 
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.819));
+}
+
+/* @media screen and (min-width: 768px) {
+    .maps {
+        overflow:hidden;
+    }
+
+} */
+
+/********Tablet********/
+
+@media(max-width: 1024px) {
+    .maps {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps iframe {
+        padding-top: 20px;
+        width: 30rem;
+        margin: auto;
+        height: 20rem;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .partdos {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .paragraph2 {
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+/********Celular********/
+
+@media(max-width: 660px) {
+
+    .partdos {
+        margin: 1px;
+    }
+    .maps {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps iframe {
+        padding-top: 20px;
+        width: 22rem;
+        margin: auto;
+        
+        height: 20rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paragraph2 {
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+}
