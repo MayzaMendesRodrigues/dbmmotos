@@ -7,12 +7,26 @@
     font-family: "Bebas", "K2D" sans-serif;
 }
 body {
+    background-color: black;
     background-image: url("./servicios (1).png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+   
 }
 
+.conteudo {
+    margin-top: 500px;
+}
+
+.partum {
+
+}
+
+.partum h2 {
+    margin-left: 250px;
+    font-size: 30px;
+}
 
 .fundo {
     display: flex;
