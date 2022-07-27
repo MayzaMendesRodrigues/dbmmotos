@@ -16,21 +16,47 @@ body {
 }
 
 .content {
-    margin-top: 500px;
+    margin-top: 550px;
 }
 
 .partone {
+    align-items: center;
+    justify-content: space-around;
+}
 
+.partone .first-txt {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .partone h2 {
+
     font-family: "Bebas Neue" ;
     margin-left: 250px;
     font-size: 60px;
 }
 
-.fontred {
+.partone button {
+    display: flex;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #F52020;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 14px 35px;
+    margin: 100px auto auto auto;
+}
+
+.partone .icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-txt .fontred {
     color:#e91c22;
+    display: inline;
 }
 
 .flex-container {
@@ -47,7 +73,6 @@ body {
     justify-content: space-around;
    
    
-
 }
 
 .paragraph2 {
@@ -61,10 +86,6 @@ body {
 
 }
 
-.paragraph2 .title{
-    display: flex;
-    
-}
 
 .paragraph2 .fontred {
     display: flex;
@@ -85,12 +106,7 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.819));
 }
 
-/* @media screen and (min-width: 768px) {
-    .maps {
-        overflow:hidden;
-    }
 
-} */
 
 /********Tablet********/
 
